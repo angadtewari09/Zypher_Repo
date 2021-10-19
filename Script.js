@@ -28,5 +28,13 @@ submit_button.addEventListener('click', function(e) {
         console.log(data)
         var results = document.getElementById('results')
         results.innerHTML = `${data.status}`
+        var box = document.querySelector('.box')
+        var box_2 = document.querySelector('.box-2')
+        if( results.innerHTML === 'true') {
+            console.log('hi there')
+            box.setAttribute("style", "display:none;")
+            box_2.setAttribute("style", "display:flex;")
+        }
+        
     })
 })
