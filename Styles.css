@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.heading   {
+    color: midnightblue;
+    font-family: 'Lato',sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-left: 5.9rem;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: none;
+    padding: none;
+}
+.right  {
+    width: 50%;
+
+    height: auto;
+}
+.left {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    margin-top: auto;
+}
+.image {
+    display: flex;
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 25px 30px;
+}
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato',sans-serif;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+.box-2 p {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 900;
+}
+#h1 {
+    font-family: 'Lato',sans-serif;
+    font-weight: 100;
+    position: relative;
+}
+#h1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    background: #9b59b6;
+    width: 30px;
+}
+form {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 900;
+    color: #6d766d;
+    width: 90%;
+
+}
+form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+form .user-details .input-box {
+    width: calc(100% / 2 -20px);
+    margin-bottom: 15px;
+}
+.user-details .input-box .details {
+    margin-bottom: 1px;
+    display: block;
+    font-size: 16px;
+    font-weight: 900;
+}
+form .user-details .input-box input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-bottom: #6d766d solid 1px;
+    outline: none;
+    border-radius: 1px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border:solid #9b59b6 1px;
+    border-radius: 5px;
+}
+form .button {
+    height: 45px;
+    margin: 45px 0;
+    float: right;
+}
+form .button input {
+    height: 100%;
+    width: auto;
+    font-weight: 900;
+    padding:15px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #6d766d;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 15px;
+
+}
+#notarisations {
+    float: right;
+    border: solid #9b59b6 2px;
+    height: auto;
+    padding:0.35rem;
+    width: 120px;
+    color: #9b59b6;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 900;
+}
+#notarisations option {
+    color: #9b59b6;
+    font-family: 'Lato',sans-serif;
+}
+.select-option {
+    margin-top: 2rem;
+}
+.detailed {
+    font-size: 15px;
+    font-weight: 900;
+}

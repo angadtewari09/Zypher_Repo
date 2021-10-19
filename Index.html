@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.\ttic</title>
+    <link href="Styles.css" rel="stylesheet">
+</head>
+<body class="main-body"> 
+    <nav class="navbar">
+        <h1 class="heading">.\ttic</h1>
+    </nav> 
+    <div class="container">
+        <div class="left">
+           <div class="box-2">
+               <h1>Congratulations!</h1>
+               <h2>Your Online Notary has been scheduled</h2>
+               <p>Our team will soon scheduled appointment for notarisation</p>
+               <br>
+               <br>
+               <p>In case of Emergency Notaisations, please reach out to us directly</p>
+           </div>
+            <div class="box">
+                <h1 id="h1">Schedule an Online Notary Now</h1>
+                <br>
+                <br>
+                <form class="form" action="#">
+                   <div class="user-details">
+                       <div class="input-box">
+                           <span class="details">Full Name</span>
+                           <input id="name" type="text" placeholder="Enter your name" required>
+                       </div>
+                       <div class="input-box">
+                            <span class="details">Email</span>
+                            <input id="email" type="text" placeholder="Enter your name" required>
+                       </div>
+                       <div class="input-box">
+                            <span class="details">Phone Number</span>
+                            <input id="number" type="text" placeholder="Enter your name" required>
+                       </div>
+                       <div class="input-box select-option">
+                           <label for="notarisations" class="detailed">How many Notarisations:</label>
+                           <select for="notarisations" id="notarisations" class="Notarisations">
+                                <option value="1">Option 1</option>
+                                <option value="2">Option 2</option>
+                                <option value="3">Option 3</option>
+                                <option value="4">Option 4</option>
+                           </select>
+                       </div>
+
+                       <div class="input-box">
+                        <label for="notarisations" class="detailed">How many Signers:</label>
+                        <select for="notarisations" id="notarisations" class="Signers">
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                            <option value="4">Option 4</option>
+                        </select>
+                    </div>
+                   </div>
+                   <div class="button">
+                       <input class="submit-button" type="submit" value="Save and Continue">
+                   </div>
+                </form>
+            </div>
+        </div>
+        <div class="right">
+            <img class="image" src="Left.png" alt="Basic image">
+        </div>
+    </div>
+    <div id="results">
+
+    </div>
+    
+</body>
+<script  type="text/javascript" src="script.js"></script>
+</html>
